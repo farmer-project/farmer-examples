@@ -1,0 +1,17 @@
+{
+    "name": "farmer/test-app",
+    "description": "A test php application based on Silex framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aramalipoor",
+            "email": "aram.alipoor@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "1.0.*-dev",
+        "twig/twig": ">=1.8,<2.0-dev",
+        "igorw/config-service-provider": "1.0.*-dev",
+        "symfony/yaml": "2.1.*"
+    }
+}

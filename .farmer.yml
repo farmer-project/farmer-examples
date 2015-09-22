@@ -1,0 +1,6 @@
+image: tutum/lamp
+home: /var/www/html
+ports:
+ - 80/tcp
+scripts:
+ create: devops/farmer/install

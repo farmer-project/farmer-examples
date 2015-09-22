@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Install curl
+apt-get update -y
+apt-get install -y --force-yes curl
+
+# Install composer & vendor packages
+cd /app
+curl -s http://getcomposer.org/installer | php
+php composer.phar --prefer-source install
+
+# Done
+echo "App is installed successfully."
